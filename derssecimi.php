@@ -7,18 +7,14 @@
 		<?php
 		echo"<select name='no'>";
 			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	$dosya=fopen("bilgi.txt","r");
+while ((!fopen($dosya))
+       {
+	       
+	     $kaynak=fgets($dosya,256);
+$kaynak=trim($explode("-",$kaynak);
+	     echo "<option>".$dizi[0];
+	     }
 		
 		echo"</select>";
 		?>
